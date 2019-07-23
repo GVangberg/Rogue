@@ -1,0 +1,111 @@
+/***** BASE STYLES *****/
+
+body{
+    color: hsl(0, 0%, 0%);
+}
+
+p{
+    font-size: 14px;
+}
+
+#headspecials, #headreviews, #headcontact{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+/***** GRID *****/
+
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width{
+    width: 600px;
+    float: left;
+}
+
+.third-width{
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+header{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header span{
+    color: rgb(30, 158, 83);
+}
+
+#welcome p{
+    padding-top: 25px;
+}
+
+ul span{
+    color: rgb(30, 158, 83);
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px 5px 0 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+img{
+    border-top: 5px solid  rgb(30, 158, 83);
+    border-bottom: 5px solid  rgb(30, 158, 83);
+}
+
+/***** WELCOME *****/
+
+#welcome h2{
+    color:  rgb(30, 158, 83);
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+/***** SPECIALS *****/
+
+#specials ul span{
+    color:  rgb(30, 158, 83);
+}
+
+#specials ul{
+    list-style-type: none;
+    padding: 0;
+    line-height: 30px;
+}
+
+/***** REVIEWS *****/
+
+#reviews p{
+    padding-right: 100px;
+}
+
+/***** CONTACT *****/
+
+/***** MOTTO *****/
+
+#motto{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 200px 0 0 637px;
+
+}
+
+#motto span{
+    color: rgb(30, 158, 83);
+    font-style: italic;
+    text-transform: lowercase;
+}
